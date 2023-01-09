@@ -14,7 +14,7 @@ Given the data, we first had to process this data to make it easier to train our
 6. We then created a visualization for this.
 
 ### Results And Analysis
-* Once we had our data set ready for PCa, we first scaled it and then implemented PCA and plotted to find the optimum number of clusters. Below are our results:\
+* Once we had our data set ready for PCA, we first scaled it and then implemented PCA and plotted to find the optimum number of clusters. Below are our results:\
 ![Elbow Curve](https://github.com/sag7221/Cryptocurrencies/blob/main/images/Elbow_Curve.png)
 
 * From above picture, i estimated optimal K clusters is 4 and ran a KMeans model for 4 clusters.\
@@ -26,6 +26,7 @@ Below is how KMeans clusters look like:\
 
 * A total of 532 such tradeable crypto currencies exist in this dataset. I now scale the columns TotalCoins Mined and TotalCoins Supply to get an idea of status of these currencies. Scaling was done using MinMaxScaler\
 ![Scatter Plot](https://github.com/sag7221/Cryptocurrencies/blob/main/images/scatter_plot.png)
+In the above image we can see 2 outliers, one is BitTorrent with more supply and also more mined coins. The other is TurtleCoin with most supply but less number of mined coins.
 
 
 
