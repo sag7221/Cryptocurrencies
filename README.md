@@ -15,17 +15,17 @@ Given the data, we first had to process this data to make it easier to train our
 
 ### Results And Analysis
 * Once we had our data set ready for PCa, we first scaled it and then implemented PCA and plotted to find the optimum number of clusters. Below are our results:\
-![Elbow Curve](https://github.com/sag7221/Cryptocurrencies/blob/main/images/Elbow_Curve.png)\
+![Elbow Curve](https://github.com/sag7221/Cryptocurrencies/blob/main/images/Elbow_Curve.png)
 
 * From above picture, i estimated optimal K clusters is 4 and ran a KMeans model for 4 clusters.\
 Below is how KMeans clusters look like:\
-![KMeans Clusters](https://github.com/sag7221/Cryptocurrencies/blob/main/images/KMeans_3D.png)\
+![KMeans Clusters](https://github.com/sag7221/Cryptocurrencies/blob/main/images/KMeans_3D.png)
 
 * I now also wanted to do further analysis and created a visualization of tradeable cryptocurrencies\
-![Crypto Currencies](https://github.com/sag7221/Cryptocurrencies/blob/main/images/tradeable_cryptos.png)\
+![Crypto Currencies](https://github.com/sag7221/Cryptocurrencies/blob/main/images/tradeable_cryptos.png)
 
 * A total of 532 such tradeable crypto currencies exist in this dataset. I now scale the columns TotalCoins Mined and TotalCoins Supply to get an idea of status of these currencies. Scaling was done using MinMaxScaler\
-![Scatter Plot](https://github.com/sag7221/Cryptocurrencies/blob/main/images/scatter_plot.png)\
+![Scatter Plot](https://github.com/sag7221/Cryptocurrencies/blob/main/images/scatter_plot.png)
 
 
 
